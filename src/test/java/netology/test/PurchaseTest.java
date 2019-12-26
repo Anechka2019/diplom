@@ -2,13 +2,13 @@ package netology.test;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
-import org.junit.jupiter.api.*;
 import netology.pages.CreditPage;
 import netology.pages.Page;
 import netology.pages.PaymentPage;
 import netology.utils.Card;
 import netology.utils.DataGenerator;
 import netology.utils.SqlHelper;
+import org.junit.jupiter.api.*;
 
 import java.sql.SQLException;
 
